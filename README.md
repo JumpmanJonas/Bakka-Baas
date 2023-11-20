@@ -1,8 +1,6 @@
 # Bakka-Baas
 # Next JS Application
 
-# Full Series Tutorial
-https://codeytek.com/course/next-js-tutorials-for-beginners/
 
 ## Description :clipboard:
 > Book båser på en nettside. 
