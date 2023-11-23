@@ -12,7 +12,7 @@ export default function Navbar() {
     "pb-1 bg-left-bottom bg-gradient-to-r from-white to-green-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out cursor-pointer";
   return (
     <nav className="flex justify-start px-8 items-center bg-transparent">
-      <section className="w-2/3">
+      <section className="w-2/3 ">
         <Link
           href="/"
           className="w-24 h-12 text-xl flex justify-center items-center hover:text-green-400"

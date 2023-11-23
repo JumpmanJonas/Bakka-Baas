@@ -15,7 +15,7 @@ export default function Home() {
 
       <section className=" w-full">
         <div className="h-9"></div>
-        <h1 className="flex justify-center items-center text-6xl w-full">
+        <h1 className="flex justify-center items-center text-6xl text-text w-full">
           Ledige båser
         </h1>
         <div className="h-5"></div>
