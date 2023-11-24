@@ -36,6 +36,7 @@ app.post('/info/:name-:startDate-:endDate', function(request, response){
             "start": startD,
             "end": endD
             
+            
         }
         console.log(booking3)
         obj['båser']['bås1']['bookings'].push(booking3) //add some data
