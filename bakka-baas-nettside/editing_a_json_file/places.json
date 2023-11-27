@@ -1,6 +1,6 @@
 {
-  "båser": {
-    "bås1": {
+  "båser": 
+    [{
       "isOccupied": false,
       "occupiedBy": "name",
       "bookings": [
@@ -21,7 +21,7 @@
         }
       ]
     },
-    "bås2": {
+    {
       "isOccupied": false,
       "occupiedBy": "name",
       "bookings": {
@@ -34,6 +34,6 @@
           "start": "2023-11-23T14:00:00+00:00"
         }
       }
-    }
-  }
+    }]
+  
 }

@@ -30,17 +30,17 @@ app.post('/info/:name-:startDate-:endDate', function(request, response){
             console.log(err);
         } else {
         obj = JSON.parse(data); //now it an object
-        console.log(obj['båser']['bås1']['bookings'])
+        console.log(obj['båser'][0]['bookings'])
         let booking3 = {
             "name": newName, 
             "start": startD,
             "end": endD
-            
+
             
         }
         console.log(booking3)
-        obj['båser']['bås1']['bookings'].push(booking3) //add some data
-        console.log(obj['båser']['bås1']['bookings'])
+        obj['båser'][0]['bookings'].push(booking3) //add some data
+        
         
 
 
